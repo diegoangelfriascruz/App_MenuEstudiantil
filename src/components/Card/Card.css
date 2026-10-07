@@ -1,0 +1,9 @@
+.card-KPI{
+    background: blueviolet;
+    font-size:large;
+    letter-spacing: 1rem; 
+    border-radius: 1rem;
+    max-width: 20rem;
+
+    box-shadow: 0 4 12;
+}

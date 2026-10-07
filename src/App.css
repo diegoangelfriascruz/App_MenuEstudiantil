@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+h1 {
+  color: chartreuse;
+  font-size: large;
+}
+
+h2 {
+  color: chartreuse;
+}
+
+h3 {
+  color: chartreuse;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -21,7 +34,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(229, 181, 8);
 }
 
 .App-link {
@@ -36,3 +49,48 @@
     transform: rotate(360deg);
   }
 }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 28rem;
+  margin: 1rem auto;
+}
+
+.fila-materia {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.error { color: crimson; }
+.exito { color: seagreen; }
+
+.student-card {
+  background: blueviolet;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 0.5rem auto;
+  max-width: 20rem;
+}
+
+.formulario input {
+  border: 2px solid rgb(20, 187, 243);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+}
+
+.formulario input:focus {
+  outline: none;
+  border-color: chartreuse;
+}
+
+.fila-materia input {
+  flex: 1;
+  min-width: 0;
+}
+
+
+
