@@ -1,9 +1,8 @@
-.card-KPI{
-    background: blueviolet;
-    font-size:large;
-    letter-spacing: 1rem; 
+.card-kpi{
+    border: 1px solid #ccc;
     border-radius: 1rem;
-    max-width: 20rem;
-
-    box-shadow: 0 4 12;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.35 ease-in-out;
 }
