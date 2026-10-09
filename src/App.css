@@ -1,15 +1,15 @@
 :root {
-  - -primary-color: #ffffff;
-  - -secondary-color: #ffffff;
-  - -accent-color: #ffffff;
+  - -primary-color: rgb(42, 165, 58);
+  - -secondary-color: rgb(60, 189, 75);
+  - -accent-color: rgb(255, 217, 0);
 
-  - -tecxto-pequeño: 0.8rem;
+  - -texto-pequeño: 0.8rem;
   - -texto-mediano: 1rem;
   - -texto-grande: 1.2rem;
 
-  - -color-primario: #ffffff;
-  - -color-secundario: #ffffff;
-  - -color-fondo: #ffffff;
+  - -color-primario: #2b3e93;
+  - -color-secundario: #14bac9;
+  - -color-fondo: #5f5265;
   
 }
 
