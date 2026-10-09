@@ -1,95 +1,22 @@
-.App {
-  text-align: center;
+:root {
+  - -primary-color: #ffffff;
+  - -secondary-color: #ffffff;
+  - -accent-color: #ffffff;
+
+  - -tecxto-pequeño: 0.8rem;
+  - -texto-mediano: 1rem;
+  - -texto-grande: 1.2rem;
+
+  - -color-primario: #ffffff;
+  - -color-secundario: #ffffff;
+  - -color-fondo: #ffffff;
+  
 }
 
-h1 {
-  color: chartreuse;
-  font-size: large;
-}
-
-h2 {
-  color: chartreuse;
-}
-
-h3 {
-  color: chartreuse;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(229, 181, 8);
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.formulario {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  max-width: 28rem;
-  margin: 1rem auto;
-}
-
-.fila-materia {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.error { color: crimson; }
-.exito { color: seagreen; }
-
-.student-card {
-  background: blueviolet;
-  color: #fff;
-  border-radius: 1rem;
-  padding: 1rem;
-  margin: 0.5rem auto;
-  max-width: 20rem;
-}
-
-.formulario input {
-  border: 2px solid rgb(20, 187, 243);
-  border-radius: 0.5rem;
-  padding: 0.5rem 0.75rem;
-  font-size: 1rem;
-}
-
-.formulario input:focus {
-  outline: none;
-  border-color: chartreuse;
-}
-
-.fila-materia input {
-  flex: 1;
-  min-width: 0;
+body{
+  front-family: Arial, sans-serif;
+  background-color: var(- -color-fondo);
+  margin: 10rem;
 }
 
 
